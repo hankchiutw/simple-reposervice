@@ -19,6 +19,9 @@ module.exports = function(repoService){
  * @apiVersion 2.0.0
  *
  * @apiParam {Number} versionCode apk or ipa version code.
+ * @apiParam {Number} majorVersion
+ * @apiParam {Number} minorVersion
+ * @apiParam {Number} patchVersion
  * @apiParam {String="ios","android"} deviceType ios or android
  *
  * @apiSuccess (CommonSuccess) {String} result Description.
@@ -30,7 +33,10 @@ module.exports = function(repoService){
  *      "result": {
  *        "deviceType": "ios",
  *        "downloadLink": "http://a",
- *        "versionCode": 3
+ *        "majorVersion": 1
+ *        "minorVersion": 2
+ *        "patchVersion": 3
+ *        "versionCode": 4
  *      }
  *  }
  * }

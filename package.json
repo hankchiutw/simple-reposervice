@@ -9,11 +9,12 @@
     "aws-sdk": "^2.2.33",
     "co-nextware": "^1.0.1"
   },
-  "description": "repository server",
+  "description": "repository service using AWS DynamoDB",
   "devDependencies": {
   },
   "keywords": [
-    "aws"
+    "aws",
+    "dynamodb"
   ],
   "license": "ISC",
   "main": "index.js",
@@ -33,5 +34,5 @@
     "doc": "jsdoc -c jsdoc.json",
     "example": "node example/app.js"
   },
-  "version": "0.9.0"
+  "version": "1.0.0"
 }
