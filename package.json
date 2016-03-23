@@ -34,5 +34,5 @@
     "doc": "jsdoc -c jsdoc.json",
     "example": "node example/app.js"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

@@ -18,10 +18,10 @@ module.exports = function(repoService){
  * @apiGroup Repository
  * @apiVersion 2.0.0
  *
- * @apiParam {Number} versionCode apk or ipa version code.
- * @apiParam {Number} majorVersion
- * @apiParam {Number} minorVersion
- * @apiParam {Number} patchVersion
+ * @apiParam {Number} [versionCode] apk or ipa version code.
+ * @apiParam {Number} [majorVersion]
+ * @apiParam {Number} [minorVersion]
+ * @apiParam {Number} [patchVersion]
  * @apiParam {String="ios","android"} deviceType ios or android
  *
  * @apiSuccess (CommonSuccess) {String} result Description.
